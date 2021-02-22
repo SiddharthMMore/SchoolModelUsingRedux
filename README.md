@@ -1,0 +1,2 @@
+# SchoolModelUsingRedux
+Store model
