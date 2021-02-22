@@ -1,0 +1,43 @@
+{
+    "SchoolStore": {
+        "Teachers": [
+            {
+                "teacherId": "uniqueId",
+                "teacherInfo": {
+                    "name": "name",
+                    "education": "education"
+                },
+                "teaches": [
+                    {
+                        "courseID": "courseId"
+                    }
+                ]
+            }
+        ],
+        "Courses": [
+            {
+                "courseId": "uniqueId",
+                "description": "description"
+            }
+        ],
+        "Classes": [
+            {
+                "classId": "uniqueId",
+                "students": [
+                    {
+                        "studentId": "rollno",
+                        "studentInfo": {
+                            "name": "name",
+                            "grade": "grade"
+                        },
+                        "coursesSubscribedTo": [
+                            {
+                                "courseID": "courseId"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
